@@ -1,0 +1,7 @@
+<Alarms>
+  <Alarm type="high" tagName="probniTag" priority="1">50</Alarm>
+  <Alarm type="high" tagName="probniTag" priority="2">70</Alarm>
+  <Alarm type="low" tagName="Noviii" priority="3">15</Alarm>
+  <Alarm type="high" tagName="RTUProbni" priority="1">30</Alarm>
+  <Alarm type="high" tagName="RTUProbni" priority="2">40</Alarm>
+</Alarms>

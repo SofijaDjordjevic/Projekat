@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\bin\SCADA_Core.dll.config
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\bin\SCADA_Core.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\bin\SCADA_Core.pdb
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\bin\EntityFramework.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\bin\EntityFramework.xml
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\obj\Debug\SCADA_Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\obj\Debug\SCADA_Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\obj\Debug\SCADA_Core.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\SCADA_Core\obj\Debug\SCADA_Core.pdb

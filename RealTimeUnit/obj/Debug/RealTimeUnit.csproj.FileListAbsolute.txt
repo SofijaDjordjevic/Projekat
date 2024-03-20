@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\bin\Debug\RealTimeUnit.exe.config
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\bin\Debug\RealTimeUnit.exe
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\bin\Debug\RealTimeUnit.pdb
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\obj\Debug\RealTimeUnit.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\obj\Debug\RealTimeUnit.exe
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\obj\Debug\RealTimeUnit.pdb
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\RealTimeUnit\obj\Debug\RealTimeUnit.csproj.AssemblyReference.cache

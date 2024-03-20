@@ -1,0 +1,15 @@
+<Tags>
+  <Tag tagType="input" type="digital" name="noviTag" ioAddress="C" driver="SD" scanTime="2" onOffScan="false">Ovo je probni tag</Tag>
+  <Tag tagType="input" type="digital" name="noviTag3" ioAddress="R" driver="SD" scanTime="2" onOffScan="true">Ovo je isto novi tag</Tag>
+  <Tag tagType="input" type="digital" name="tag2" ioAddress="R" driver="SD" scanTime="3" onOffScan="true">Opis taga</Tag>
+  <Tag tagType="input" type="analog" name="Noviii" ioAddress="S" driver="SD" scanTime="2" onOffScan="true" lowLimit="0" highLimit="30" unit="M">novi</Tag>
+  <Tag tagType="input" type="analog" name="tag1" ioAddress="S" driver="SD" scanTime="2" onOffScan="true" lowLimit="1" highLimit="10" unit="M">Opis taga</Tag>
+  <Tag tagType="input" type="analog" name="probniTag" ioAddress="R" driver="SD" scanTime="1" onOffScan="false" lowLimit="10" highLimit="100" unit="S">testiracemo alarm</Tag>
+  <Tag tagType="input" type="analog" name="RTU" ioAddress="K" driver="RTD" scanTime="1" onOffScan="true" lowLimit="10" highLimit="50" unit="M">opis</Tag>
+  <Tag tagType="input" type="analog" name="RTUProbni" ioAddress="K" driver="RTD" scanTime="1" onOffScan="true" lowLimit="0" highLimit="100" unit="M">rtu tag</Tag>
+  <Tag tagType="output" type="digital" name="tag11" ioAddress="R" initValue="0">Opis taga</Tag>
+  <Tag tagType="output" type="digital" name="IzlazniTag" ioAddress="S" initValue="0">digitalni</Tag>
+  <Tag tagType="output" type="analog" name="noviTag2" ioAddress="C" initValue="21" lowLimit="0" highLimit="40" unit="M">Ovo je probni izlazni tag</Tag>
+  <Tag tagType="output" type="analog" name="tag10" ioAddress="C" initValue="4" lowLimit="1.5" highLimit="8" unit="M">Opis taga</Tag>
+  <Tag tagType="output" type="analog" name="Analogni" ioAddress="S" initValue="35" lowLimit="10" highLimit="60" unit="S">analogni izlazni</Tag>
+</Tags>

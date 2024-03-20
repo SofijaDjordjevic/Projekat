@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SCADA_Core.Trending" CodeBehind="Trending.svc.cs" %>

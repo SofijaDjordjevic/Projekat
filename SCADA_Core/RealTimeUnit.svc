@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SCADA_Core.RealTimeUnit" CodeBehind="RealTimeUnit.svc.cs" %>

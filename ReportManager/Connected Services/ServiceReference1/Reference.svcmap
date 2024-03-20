@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d8900fa4-285c-4395-b814-b21ae15dbb59" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4357/ReportManagerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MetadataAddress.xsd" MetadataType="Schema" ID="2dd23da1-6873-4445-8187-64c5db40afce" SourceId="1" SourceUrl="http://localhost:4357/ReportManagerService.svc/MetadataAddress?xsd=xsd0" />
+    <MetadataFile FileName="MetadataAddress.disco" MetadataType="Disco" ID="985753a5-1f62-472d-83a2-8eb10c25eaa9" SourceId="1" SourceUrl="http://localhost:4357/ReportManagerService.svc/MetadataAddress?disco" />
+    <MetadataFile FileName="ReportManagerService.wsdl" MetadataType="Wsdl" ID="449e2bda-3e35-45a7-9fc1-3e190b951e45" SourceId="1" SourceUrl="http://localhost:4357/ReportManagerService.svc/MetadataAddress?wsdl" />
+    <MetadataFile FileName="MetadataAddress1.xsd" MetadataType="Schema" ID="e8e046fb-48bf-4446-baf9-6cba9dd12f14" SourceId="1" SourceUrl="http://localhost:4357/ReportManagerService.svc/MetadataAddress?xsd=xsd1" />
+    <MetadataFile FileName="MetadataAddress2.xsd" MetadataType="Schema" ID="f37e90e2-e4c9-4653-b771-c383907838ef" SourceId="1" SourceUrl="http://localhost:4357/ReportManagerService.svc/MetadataAddress?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

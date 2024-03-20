@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\DatabaseManager.exe.config
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\DatabaseManager.exe
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\DatabaseManager.pdb
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\SCADA_Core.dll
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\SCADA_Core.pdb
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\SCADA_Core.dll.config
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\obj\Debug\DatabaseManager.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\obj\Debug\DatabaseManager.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\obj\Debug\DatabaseManager.exe
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\obj\Debug\DatabaseManager.pdb
+C:\Users\User\Desktop\Snus Projekat\SNUS\SCADA_Core\DatabaseManager\obj\Debug\DatabaseManager.csproj.CopyComplete

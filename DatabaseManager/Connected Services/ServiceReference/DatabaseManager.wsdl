@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DatabaseManager" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:4357/DatabaseManager.svc/MetadataAddress?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:4357/DatabaseManager.svc/MetadataAddress?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDatabaseManager_isDatabaseEmpty_InputMessage">
+    <wsdl:part name="parameters" element="tns:isDatabaseEmpty" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_isDatabaseEmpty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:isDatabaseEmptyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_Registration_InputMessage">
+    <wsdl:part name="parameters" element="tns:Registration" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_Registration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_SignIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:SignIn" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_SignIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SignInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_AddOutputTag_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddOutputTag" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_AddOutputTag_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddOutputTagResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_RemoveInputTag_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveInputTag" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_RemoveInputTag_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveInputTagResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_AddInputTag_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddInputTag" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_AddInputTag_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddInputTagResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_RemoveOutputTag_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveOutputTag" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_RemoveOutputTag_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveOutputTagResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_ChangeOutputValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeOutputValue" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_ChangeOutputValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeOutputValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_GetOutputValues_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOutputValues" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_GetOutputValues_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOutputValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_TurnScanOnOff_InputMessage">
+    <wsdl:part name="parameters" element="tns:TurnScanOnOff" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_TurnScanOnOff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TurnScanOnOffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_AddAlarm_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAlarm" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_AddAlarm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAlarmResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_RemoveAlarm_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveAlarm" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseManager_RemoveAlarm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveAlarmResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDatabaseManager">
+    <wsdl:operation name="isDatabaseEmpty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/isDatabaseEmpty" message="tns:IDatabaseManager_isDatabaseEmpty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/isDatabaseEmptyResponse" message="tns:IDatabaseManager_isDatabaseEmpty_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/Registration" message="tns:IDatabaseManager_Registration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/RegistrationResponse" message="tns:IDatabaseManager_Registration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SignIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/SignIn" message="tns:IDatabaseManager_SignIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/SignInResponse" message="tns:IDatabaseManager_SignIn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddOutputTag">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/AddOutputTag" message="tns:IDatabaseManager_AddOutputTag_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/AddOutputTagResponse" message="tns:IDatabaseManager_AddOutputTag_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveInputTag">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/RemoveInputTag" message="tns:IDatabaseManager_RemoveInputTag_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/RemoveInputTagResponse" message="tns:IDatabaseManager_RemoveInputTag_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddInputTag">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/AddInputTag" message="tns:IDatabaseManager_AddInputTag_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/AddInputTagResponse" message="tns:IDatabaseManager_AddInputTag_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveOutputTag">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/RemoveOutputTag" message="tns:IDatabaseManager_RemoveOutputTag_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/RemoveOutputTagResponse" message="tns:IDatabaseManager_RemoveOutputTag_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeOutputValue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/ChangeOutputValue" message="tns:IDatabaseManager_ChangeOutputValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/ChangeOutputValueResponse" message="tns:IDatabaseManager_ChangeOutputValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOutputValues">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/GetOutputValues" message="tns:IDatabaseManager_GetOutputValues_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/GetOutputValuesResponse" message="tns:IDatabaseManager_GetOutputValues_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TurnScanOnOff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/TurnScanOnOff" message="tns:IDatabaseManager_TurnScanOnOff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/TurnScanOnOffResponse" message="tns:IDatabaseManager_TurnScanOnOff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlarm">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/AddAlarm" message="tns:IDatabaseManager_AddAlarm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/AddAlarmResponse" message="tns:IDatabaseManager_AddAlarm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveAlarm">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDatabaseManager/RemoveAlarm" message="tns:IDatabaseManager_RemoveAlarm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDatabaseManager/RemoveAlarmResponse" message="tns:IDatabaseManager_RemoveAlarm_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDatabaseManager" type="tns:IDatabaseManager">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="isDatabaseEmpty">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/isDatabaseEmpty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Registration">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/Registration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignIn">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/SignIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddOutputTag">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/AddOutputTag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveInputTag">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/RemoveInputTag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddInputTag">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/AddInputTag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveOutputTag">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/RemoveOutputTag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeOutputValue">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/ChangeOutputValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutputValues">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/GetOutputValues" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TurnScanOnOff">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/TurnScanOnOff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlarm">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/AddAlarm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveAlarm">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseManager/RemoveAlarm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DatabaseManager">
+    <wsdl:port name="BasicHttpBinding_IDatabaseManager" binding="tns:BasicHttpBinding_IDatabaseManager">
+      <soap:address location="http://localhost:4357/DatabaseManager.svc/dbm" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
